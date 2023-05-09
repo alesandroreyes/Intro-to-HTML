@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.css'/>
+        <style>
+        body {
+                background-color:#5F1E02;
+                color: beige;
+            }
+            .product-image {
+                height: 200px;
+            }
+            .logo {
+                height: 50px;
+            }
+           header {
+                background-color: brown;
+                color: #fff;
+                text-align: center;
+            }
+            .container {
+                max-width: 960px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            nav {
+                display: inline-block;
+            }
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                display: inline-block;
+                margin: 0 10px;
+            }
+            li a {
+                color: #fff;
+                text-decoration: none;
+            }
+            li a:hover {
+                text-decoration: underline;
+            }
+            
+            /* Footer styles */
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            .wrapper {
+                min-height: 100%;
+                margin-bottom: -50px; /* same as footer height */
+            }
+            .content {
+                padding-bottom: 50px; /* same as footer height */
+            }
+            footer {
+                height: 50px;
+                background-color: brown;
+                color: #fff;
+                text-align: right;
+                position: relative;
+            }
+            footer .container {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                text-align:center
+            }
+            footer nav {
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+            }
+            footer ul {
+                list-style: none;
+            }
+            footer li {
+                display: inline-block;
+                margin: 0 10px;
+                text-align:center
+            }
+            footer li a {
+                color: #fff;
+                text-decoration: none;
+                text-align:center
+            }
+            footer li a:hover {
+                text-decoration: underline;
+            }
+            footer .copy {
+                display: inline-block;
+                margin: 0 10px;
+                font-size: 0.8em;
+                text-align:center
+            }
+            footer {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+          <nav>
+            <ul>
+                <li><img class='logo' src="logo.jpg"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+          </nav>
+        </header>
+    <main>
+        <h1>Products List</h1> 
+        <table class=>
+            <tr><th>Code</th><th>Image</th><th>Name</th><th>Price</th></tr>
+            <tr><td>100</td><td><img class="product-image" src="americano.jpg"></td><td><a href="americano.html">Americano</a></td><td>125</td></tr>
+            <tr><td>200</td><td><img class="product-image" src="brewedcoffee.jpg"></td><td><a href="brewedcoffee.html">Brewed Coffee</a></td><td>100</td></tr>
+            <tr><td>300</td><td><img class="product-image" src="cappuccino.jpg"></td><td><a href="cappuccino.html">Cappuccino</a></td><td>140</td></tr>
+            <tr><td>400</td><td><img class="product-image" src="dalgona.jpg"></td><td><a href="dalgona.html">Dalgona</a></td><td>120</td></tr>
+            <tr><td>500</td><td><img class="product-image" src="espresso.jpg"></td><td><a href="espresso.html">Espresso</a></td><td>120</td></tr>
+            <tr><td>600</td><td><img class="product-image" src="frappuccino.jpg"></td><td><a href="frappuccino.html">Frappuccino</a></td><td>200</td></tr>
+        </table>
+    </main>
+    <footer>
+        <div class="container">
+          <nav>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+          <div class="copy">
+            &copy; 2023 My Company. All Rights Reserved.
+          </div>
+        </div>
+      </footer>
+    </body>
+</html>
